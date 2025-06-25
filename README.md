@@ -72,6 +72,6 @@ A **webcam-based image processing app** that captures a selfie, detects faces, a
 
 ## 👨‍💻 Author
 
-**Vaggelis Papaioannou**  
+**Evangelos Papaioannou**  
 Department of Electrical & Computer Engineering  
 Democritus University of Thrace

@@ -1,0 +1,27 @@
+🎮 Tic-Tac-Toe (with AI) – Terminal C++ Game
+This was one of my favorite mini-projects from uni — a clean, console-based Tic-Tac-Toe game where you can play against the computer.
+
+I implemented three difficulty levels:
+
+🟢 Easy: the computer picks random moves
+
+🟡 Medium: it tries to block your winning moves
+
+🔴 Hard: uses the Minimax algorithm to play optimally (basically unbeatable!)
+
+You can choose whether to go first or second, and input moves using formats like A1, C2, etc.
+It was the first time I built a full decision-making system — and it taught me how AI logic trees really work behind the scenes.
+
+📌 What I learned
+
+Game logic and board state management
+
+Turn-based input handling
+
+Writing clean, modular C++ code
+
+Implementing a recursive AI algorithm (Minimax)
+
+🛠️ Built using Visual Studio on Windows.
+
+

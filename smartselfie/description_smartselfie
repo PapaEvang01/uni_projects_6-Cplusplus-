@@ -1,0 +1,36 @@
+🤳 SmartSelfie – Real-Time Face Detection & Image Processing (C++ with OpenCV)
+  
+SmartSelfie is a webcam-based C++ application built using OpenCV. It allows you to preview your webcam, 
+capture a photo with a key press, and then apply basic computer vision techniques like face detection and image filtering. 
+It's a visual, interactive project that marked my first hands-on experience with computer vision and OpenCV — showing how powerful C++ becomes when combined with this library.
+
+🔍 Main Features:
+Live Webcam Preview: Before capturing, the program shows your camera feed so you can adjust your pose.
+
+One-Click Capture: Press the SPACE key to take a snapshot.
+
+Face Detection: Uses a Haar Cascade Classifier (haarcascade_frontalface_default.xml) to detect and outline faces with rectangles.
+
+Image Processing: Converts the image to grayscale and applies Gaussian Blur for a smooth effect.
+
+Step-by-Step Visualization: Each stage (raw, detected, blurred) is displayed one after another for clarity.
+
+📁 Files & Outputs Explained:
+File	Description
+main.cpp	The main source file. It contains all logic: webcam handling, face detection, grayscale conversion, blur filtering, image saving, and visualization.
+haarcascade_frontalface_default.xml	The pretrained Haar Cascade model used to detect faces in the image. Must be placed in the executable's directory.
+snapshot_raw.png	The raw snapshot captured from the webcam.
+snapshot_detected.png	The image after applying face detection (with rectangles drawn around faces).
+snapshot_blur.png	A grayscale version of the raw image with Gaussian blur applied.
+.vscode/ and CMakeLists.txt	VS Code settings and CMake configuration for building the project.
+build/	Output directory containing compiled binaries and intermediate files (e.g., SmartSelfie.exe, build cache, etc.).
+
+This project helped me understand the basics of image processing, how to work with real-time webcam feeds,
+  and how to integrate external models like Haar classifiers. It was a great introduction to building interactive, vision-based tools in C++.
+
+
+
+
+
+
+

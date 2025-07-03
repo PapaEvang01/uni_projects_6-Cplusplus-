@@ -25,7 +25,7 @@ when combined with this library.
 -build/	-> Output directory containing compiled binaries and intermediate files (e.g., SmartSelfie.exe, build cache, etc.).
 
 This project helped me understand the basics of image processing, how to work with real-time webcam feeds,
-  and how to integrate external models like Haar classifiers. It was a great introduction to building interactive, vision-based tools in C++.
+and how to integrate external models like Haar classifiers. It was a great introduction to building interactive, vision-based tools in C++.
 
 
 
